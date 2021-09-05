@@ -1,0 +1,78 @@
+body{
+  background-image: url('https://images3.alphacoders.com/892/thumb-1920-89289.jpg');
+  align-content:center;
+  justify-content:center;
+  flex-direction:column;
+}
+
+header, section{
+    width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+  height:80px;  
+  background-color:#e6b0aa;
+  border-style:solid;
+  border-color:black;
+}
+ul{
+  display:inline;
+  list-style-type:none;
+  margin: 0;
+  padding: 0; 
+}
+
+ul li a{
+  float:left;
+  text-align:center;
+  background-color:black;
+  color:white;
+  width:120px;
+  height:80px;
+  text-height:80px;
+  text-decoration:none;
+  line-height:80px;
+  font-size:20px;
+  font-style:unset;
+}
+
+#galeria{
+   heigth:600px; 
+   border-style:solid;
+   border-color:black;
+   background-color:yellow;
+}
+#contenido{
+	background-color:white;
+	height:600px;
+	width:960px;
+	text-height:600px;
+	color:white;
+}
+#foto{
+  width:410px;
+  height:600px;
+  background-size:cover; 
+  float:left;
+}
+#descripcion{
+   height:600px;
+   background-color:black;
+   width:545px;
+   font-style: times;
+   float:right;
+}
+h1{
+	text-decoration:underline;
+	text-align:center;
+	font-size:25px;
+	font-style:times;
+}
+h3{
+	text-align:center;
+	font-size:20px;
+	font-style:times;
+	padding: 10px 50px 20px;
+}
